@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F352EA191A008444000BBB26 /* diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = F352EA171A008444000BBB26 /* diamonds.png */; };
+		F352EA1A1A008444000BBB26 /* hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = F352EA181A008444000BBB26 /* hearts.png */; };
+		F352EA1C1A00844D000BBB26 /* spades.png in Resources */ = {isa = PBXBuildFile; fileRef = F352EA1B1A00844D000BBB26 /* spades.png */; };
+		F352EA1E1A008456000BBB26 /* clubs.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F352EA1D1A008456000BBB26 /* clubs.jpeg */; };
+		F355D50D19F835FA00AD2509 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F355D50C19F835FA00AD2509 /* TabBarController.m */; };
+		F355D51019F8378200AD2509 /* CustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F355D50F19F8378200AD2509 /* CustomPickerViewController.m */; };
 		F3640D2C19F6E07A00AD7E65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3640D2B19F6E07A00AD7E65 /* main.m */; };
 		F3640D2F19F6E07A00AD7E65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3640D2E19F6E07A00AD7E65 /* AppDelegate.m */; };
-		F3640D3219F6E07A00AD7E65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3640D3119F6E07A00AD7E65 /* ViewController.m */; };
 		F3640D3519F6E07A00AD7E65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3640D3319F6E07A00AD7E65 /* Main.storyboard */; };
 		F3640D3719F6E07A00AD7E65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3640D3619F6E07A00AD7E65 /* Images.xcassets */; };
 		F3640D3A19F6E07A00AD7E65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3640D3819F6E07A00AD7E65 /* LaunchScreen.xib */; };
 		F3640D4619F6E07A00AD7E65 /* Homework3_PickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3640D4519F6E07A00AD7E65 /* Homework3_PickerTests.m */; };
+		F365F44819F9835D00055125 /* CheckItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F365F44719F9835D00055125 /* CheckItViewController.m */; };
+		F3C4CB7619F9B0E200701F61 /* HintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C4CB7519F9B0E200701F61 /* HintViewController.m */; };
+		F3D42CF719FFE82A00F07BB6 /* playing-cards-8474744.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3D42CF619FFE82A00F07BB6 /* playing-cards-8474744.jpg */; };
+		F3D42CF919FFE99F00F07BB6 /* lock-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D42CF819FFE99F00F07BB6 /* lock-7.png */; };
+		F3D42CFB19FFE9DB00F07BB6 /* message-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D42CFA19FFE9DB00F07BB6 /* message-7.png */; };
+		F3D42CFD19FFE9E500F07BB6 /* presentation-7.png in Resources */ = {isa = PBXBuildFile; fileRef = F3D42CFC19FFE9E500F07BB6 /* presentation-7.png */; };
+		F3D42D071A00085F00F07BB6 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3D42D061A00085F00F07BB6 /* win.wav */; };
+		F3D42D091A00086600F07BB6 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = F3D42D081A00086600F07BB6 /* crunch.wav */; };
+		F3D42D0B1A0009E300F07BB6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D42D0A1A0009E300F07BB6 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +41,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F352EA171A008444000BBB26 /* diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamonds.png; sourceTree = "<group>"; };
+		F352EA181A008444000BBB26 /* hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hearts.png; sourceTree = "<group>"; };
+		F352EA1B1A00844D000BBB26 /* spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spades.png; sourceTree = "<group>"; };
+		F352EA1D1A008456000BBB26 /* clubs.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clubs.jpeg; sourceTree = "<group>"; };
+		F355D50B19F835FA00AD2509 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		F355D50C19F835FA00AD2509 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		F355D50E19F8378200AD2509 /* CustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerViewController.h; sourceTree = "<group>"; };
+		F355D50F19F8378200AD2509 /* CustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerViewController.m; sourceTree = "<group>"; };
 		F3640D2619F6E07A00AD7E65 /* Homework3_Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework3_Picker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3640D2A19F6E07A00AD7E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3640D2B19F6E07A00AD7E65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3640D2D19F6E07A00AD7E65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3640D2E19F6E07A00AD7E65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F3640D3019F6E07A00AD7E65 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F3640D3119F6E07A00AD7E65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F3640D3419F6E07A00AD7E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3640D3619F6E07A00AD7E65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F3640D3919F6E07A00AD7E65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F3640D3F19F6E07A00AD7E65 /* Homework3_PickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework3_PickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3640D4419F6E07A00AD7E65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3640D4519F6E07A00AD7E65 /* Homework3_PickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework3_PickerTests.m; sourceTree = "<group>"; };
+		F365F44619F9835D00055125 /* CheckItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckItViewController.h; sourceTree = "<group>"; };
+		F365F44719F9835D00055125 /* CheckItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckItViewController.m; sourceTree = "<group>"; };
+		F3C4CB7419F9B0E200701F61 /* HintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HintViewController.h; sourceTree = "<group>"; };
+		F3C4CB7519F9B0E200701F61 /* HintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HintViewController.m; sourceTree = "<group>"; };
+		F3D42CF619FFE82A00F07BB6 /* playing-cards-8474744.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "playing-cards-8474744.jpg"; sourceTree = "<group>"; };
+		F3D42CF819FFE99F00F07BB6 /* lock-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-7.png"; sourceTree = "<group>"; };
+		F3D42CFA19FFE9DB00F07BB6 /* message-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message-7.png"; sourceTree = "<group>"; };
+		F3D42CFC19FFE9E500F07BB6 /* presentation-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presentation-7.png"; sourceTree = "<group>"; };
+		F3D42D061A00085F00F07BB6 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		F3D42D081A00086600F07BB6 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		F3D42D0A1A0009E300F07BB6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D42D0B1A0009E300F07BB6 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,7 @@
 		F3640D1D19F6E07A00AD7E65 = {
 			isa = PBXGroup;
 			children = (
+				F3D42D0A1A0009E300F07BB6 /* AudioToolbox.framework */,
 				F3640D2819F6E07A00AD7E65 /* Homework3_Picker */,
 				F3640D4219F6E07A00AD7E65 /* Homework3_PickerTests */,
 				F3640D2719F6E07A00AD7E65 /* Products */,
@@ -83,8 +116,14 @@
 			children = (
 				F3640D2D19F6E07A00AD7E65 /* AppDelegate.h */,
 				F3640D2E19F6E07A00AD7E65 /* AppDelegate.m */,
-				F3640D3019F6E07A00AD7E65 /* ViewController.h */,
-				F3640D3119F6E07A00AD7E65 /* ViewController.m */,
+				F355D50B19F835FA00AD2509 /* TabBarController.h */,
+				F355D50C19F835FA00AD2509 /* TabBarController.m */,
+				F355D50E19F8378200AD2509 /* CustomPickerViewController.h */,
+				F355D50F19F8378200AD2509 /* CustomPickerViewController.m */,
+				F3C4CB7419F9B0E200701F61 /* HintViewController.h */,
+				F3C4CB7519F9B0E200701F61 /* HintViewController.m */,
+				F365F44619F9835D00055125 /* CheckItViewController.h */,
+				F365F44719F9835D00055125 /* CheckItViewController.m */,
 				F3640D3319F6E07A00AD7E65 /* Main.storyboard */,
 				F3640D3619F6E07A00AD7E65 /* Images.xcassets */,
 				F3640D3819F6E07A00AD7E65 /* LaunchScreen.xib */,
@@ -96,6 +135,16 @@
 		F3640D2919F6E07A00AD7E65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F3D42CF819FFE99F00F07BB6 /* lock-7.png */,
+				F3D42D081A00086600F07BB6 /* crunch.wav */,
+				F352EA171A008444000BBB26 /* diamonds.png */,
+				F352EA181A008444000BBB26 /* hearts.png */,
+				F352EA1D1A008456000BBB26 /* clubs.jpeg */,
+				F3D42CFA19FFE9DB00F07BB6 /* message-7.png */,
+				F352EA1B1A00844D000BBB26 /* spades.png */,
+				F3D42D061A00085F00F07BB6 /* win.wav */,
+				F3D42CFC19FFE9E500F07BB6 /* presentation-7.png */,
+				F3D42CF619FFE82A00F07BB6 /* playing-cards-8474744.jpg */,
 				F3640D2A19F6E07A00AD7E65 /* Info.plist */,
 				F3640D2B19F6E07A00AD7E65 /* main.m */,
 			);
@@ -199,9 +248,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F352EA191A008444000BBB26 /* diamonds.png in Resources */,
+				F352EA1C1A00844D000BBB26 /* spades.png in Resources */,
+				F352EA1A1A008444000BBB26 /* hearts.png in Resources */,
 				F3640D3519F6E07A00AD7E65 /* Main.storyboard in Resources */,
+				F3D42CF719FFE82A00F07BB6 /* playing-cards-8474744.jpg in Resources */,
 				F3640D3A19F6E07A00AD7E65 /* LaunchScreen.xib in Resources */,
+				F3D42CF919FFE99F00F07BB6 /* lock-7.png in Resources */,
+				F3D42D091A00086600F07BB6 /* crunch.wav in Resources */,
 				F3640D3719F6E07A00AD7E65 /* Images.xcassets in Resources */,
+				F3D42D071A00085F00F07BB6 /* win.wav in Resources */,
+				F3D42CFB19FFE9DB00F07BB6 /* message-7.png in Resources */,
+				F352EA1E1A008456000BBB26 /* clubs.jpeg in Resources */,
+				F3D42CFD19FFE9E500F07BB6 /* presentation-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3640D3219F6E07A00AD7E65 /* ViewController.m in Sources */,
+				F365F44819F9835D00055125 /* CheckItViewController.m in Sources */,
+				F3C4CB7619F9B0E200701F61 /* HintViewController.m in Sources */,
+				F355D51019F8378200AD2509 /* CustomPickerViewController.m in Sources */,
+				F355D50D19F835FA00AD2509 /* TabBarController.m in Sources */,
 				F3640D2F19F6E07A00AD7E65 /* AppDelegate.m in Sources */,
 				F3640D2C19F6E07A00AD7E65 /* main.m in Sources */,
 			);
@@ -412,6 +474,7 @@
 				F3640D4B19F6E07A00AD7E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3640D4C19F6E07A00AD7E65 /* Build configuration list for PBXNativeTarget "Homework3_PickerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +483,7 @@
 				F3640D4E19F6E07A00AD7E65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

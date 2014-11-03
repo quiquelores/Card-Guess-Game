@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CardPickerViewController.h
 //  Homework3_Picker
 //
 //  Created by Quique Lores on 10/21/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CardPickerViewController : UIViewController
 
 @end
-
